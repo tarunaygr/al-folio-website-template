@@ -1,10 +1,10 @@
 ---
 layout: page
 title: projects
-permalink: /projects/
+permalink: #/projects/
 description: Here are my game development projects.
-nav: true
-nav_order: 2
+nav: false #true
+nav_order: #2
 display_categories: [unity, fun]
 horizontal: false
 ---
