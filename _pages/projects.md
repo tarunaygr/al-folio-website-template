@@ -1,14 +1,14 @@
 ---
 layout: page
 title: projects
-permalink: #/projects/
+permalink: /projects/
 description: Here are my game development projects.
-nav: false #true
-nav_order: #2
-display_categories: [unity, fun]
+nav: false true
+nav_order: 2
+display_categories: [completed, WIP]
 horizontal: false
 ---
-
+These are my game development projects. Some or completed and some are still work in progress (WIP). As a computer science student, I mainly focus on the coding aspects. This primarily focuses on building gameplay mechanisms and AI. I also have experience in building models in modelling softwares like Blender.
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
