@@ -13,14 +13,9 @@
   contents:
     - title: Masters of Science Computer Science
       institution: Arizona State University, Tempe
-      year: 2024 (expected)
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+      year: 2024
+      description:
+        - Focus in Cybersecurity
     - title: Bachelor of Technology
       institution: National Institute of Technology Calicut, India
       year: 2022
@@ -30,6 +25,21 @@
 - title: Experience
   type: time_table
   contents:
+    - title: SCADA Engineer
+      institution: Siemens Gamesa Renewable Energy,Orlando
+      year: 04/24 - Present
+      description:
+        - Performed installation, upgrades and maintenance on SCADA systems deployed in wind farms.
+        - Handled troubleshooting and configuration of network equipment including Cisco switches, routers and firewalls
+        - Applied tools like wireshark, tcpdump, analyzed DHCP and DNS configurations to troubleshoot communication issues
+        - Facilitated cybersecurity updates/ patches for SCADA systems
+    - title: Assistant Unity Developer
+      institution: Edplus at ASU, Tempe
+      year: 12/22 - 04/24
+      description:
+        - Developed Extended Reality (XR) experiences for ASU Online courses in Unity
+        - Worked with Dreamscape Learn (DSL) to deliver immersive educational experiences
+        - Responsible for planning and implementing game functionality and VFX, identifying bottlenecks and ensuring quality
     - title: Technical Undergraduate Intern
       institution: Cisco Systems, Bangalore
       year: 05/21 - 07/21
@@ -37,7 +47,12 @@
         - Developed a tool for automation of deployment of virtual switches and routers on VMware ESXi server using Python and Ansible
         - Formulated a Python script to automate configuration of deployed virtual machines
         - Deployed tool for internal use at Cisco Systems
-
+- title: Certifications
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - CompTIA Security+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -45,17 +60,22 @@
       items: 
         - Best Project Award B.Tech CSE 
 
-- title: Academic Interests
+- title: Professional Interests
   type: nested_list
   contents:
-    - title: Game Development
-      items: 
-        - Gameplay programming
-        - AI programming
+    
     - title: Computer Security
       items:
         - Systems Security
         - Applications Security
+        - Capture-the-flags
+        - Academic Research
+        - Malware Analysis
+        - Blogging
+    - title: Game Development
+      items: 
+        - Gameplay programming
+        - AI programming
 
 - title: Other Interests
   type: list
