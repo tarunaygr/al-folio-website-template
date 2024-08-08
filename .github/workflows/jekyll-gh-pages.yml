@@ -1,3 +1,6 @@
+#THIS IS THE WORKING ONE THAT DOES THE DEPLOYMENT
+
+
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
@@ -41,7 +44,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
