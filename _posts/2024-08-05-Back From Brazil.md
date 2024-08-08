@@ -1,12 +1,12 @@
 ---
 layout: post
 title: n00bzunit3d 2024 programming/Back from Brazil
-date: 2024-08-05 
+date: 2024-08-08
 description: Writeup for programming/Back from Brazil in n00bzunit3d 2024
 tags: n00bzunit3d2024
 categories: writeup
 ---
-Welcome to my series of writeups for n00bzunit3d 2024 capture-the-flag competition. In this post, we look at the programming/Back from Brazil challenge. First, let's look at the challenge. The challenge runs on a server and requires to connect remotely to access the challenge. The server code is provided and is given below.
+Welcome to my series of writeups for n00bzunit3d 2024 capture-the-flag competition. In this post, we look at the `programming/Back from Brazil` challenge. First, let's look at the challenge. The challenge runs on a server and requires to connect remotely to access the challenge. The server code is provided and is given below.
 
 
 {% highlight python linenos %}

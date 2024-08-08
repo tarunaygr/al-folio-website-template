@@ -6,7 +6,7 @@ description: Writeup for Rev/FlagChecker in n00bzunit3d 2024
 tags: n00bzunit3d2024
 categories: writeup
 ---
-Welcome to my series of writeups for n00bzunit3d 2024 capture-the-flag competition. In this post, we look at the Rev/FlagChecker challenge. This challenge gives us a `.xlsm` (MS Excel sheet) file and hints that the macros in it hold the information we need.
+Welcome to my series of writeups for n00bzunit3d 2024 capture-the-flag competition. In this post, we look at the `Rev/FlagChecker` challenge. This challenge gives us a `.xlsm` (MS Excel sheet) file and hints that the macros in it hold the information we need.
 
 On opening the file and looking at the macros we see the following macro
 

@@ -6,7 +6,7 @@ description: Writeup for programming/sillygoose in n00bzunit3d 2024
 tags: n00bzunit3d2024
 categories: writeup
 ---
-Welcome to my series of writeups for n00bzunit3d 2024 capture-the-flag competition. In this post, we look at the programming/sillygoose challenge. First, let's look at the challenge. The challenge runs on a server and requires to connect remotely to access the challenge. The server code is provided and is given below.
+Welcome to my series of writeups for n00bzunit3d 2024 capture-the-flag competition. In this post, we look at the `programming/sillygoose` challenge. First, let's look at the challenge. The challenge runs on a server and requires to connect remotely to access the challenge. The server code is provided and is given below.
 
 
 {% highlight python linenos %}
