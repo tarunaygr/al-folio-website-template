@@ -2,7 +2,25 @@
 ---
 
 @string{aps = {American Physical Society,}}
-
+@article{Mixon-Baca_Knockel_Xue_Ayyagari_Kapur_Ensafi_Crandall_2024,
+title={Attacking Connection Tracking Frameworks as used by Virtual Private Networks},
+abbr={Network Alchemy},
+volume={2024},
+url={http://dx.doi.org/10.56553/popets-2024-0070},
+html={http://dx.doi.org/10.56553/popets-2024-0070},
+pdf={network-alchemy.pdf},
+DOI={10.56553/popets-2024-0070},
+abstract={VPNs (Virtual Private Networks) have become an essential privacy-enhancing technology, particularly for at-risk users like dissidents, journalists, NGOs, and others vulnerable to targeted threats. While previous research investigating VPN security has focused on cryptographic strength or traffic leakages, there remains a gap in understanding how lower-level primitives fundamental to VPN operations, like connection tracking, might undermine the security and privacy that VPNs are intended to provide. In this paper, we examine the connection tracking frameworks used in common operating systems, identifying a novel exploit primitive that we refer to as the port shadow. We use the port shadow to build four attacks against VPNs that allow an attacker to intercept and redirect encrypted traffic, de-anonymize a VPN peer, or even portscan a VPN peer behind the VPN server. We build a formal model of modern connection tracking frameworks and identify that the root cause of the port shadow lies in five shared, limited resources. Through bounded model checking, we propose and verify six mitigations in terms of enforcing process isolation. We hope our work leads to more attention on the security aspects of lower-level systems and the implications of integrating them into security-critical applications.},
+number={3},
+journal={Proceedings on Privacy Enhancing Technologies},
+publisher={Privacy Enhancing Technologies Symposium Advisory Board},
+author={Mixon-Baca, Benjamin and Knockel, Jeffrey and Xue, Diwen and Ayyagari, Tarun and Kapur, Deepak and Ensafi, Roya and Crandall, Jedidiah R.},
+year={2024},
+month={jul},
+selected={true},
+pages={109–126},
+code={https://github.com/bmixonba/network-alchemy-dev}
+}
 @article{PhysRev.47.777,
   abbr={Sbox with CA & RL},
   title={Exploring Lightweight S-boxes Using Cellular Automata and Reinforcement},
@@ -20,3 +38,5 @@
   selected={true},
   code={https://github.com/tarunaygr/RL-based-S-boxes}
 }
+
+
