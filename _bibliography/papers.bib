@@ -1,30 +1,15 @@
 ---
 ---
-
+### In Publications.md, add the year in the list.
 @string{aps = {American Physical Society,}}
 
-@article{PhysRev.47.777,
-  abbr={Sbox with CA & RL},
-  title={Exploring Lightweight S-boxes Using Cellular Automata and Reinforcement},
-  author={Ayygari, T. and Saji, A. and John, A. and Jose, J.},
-  abstract={The most important elements of block ciphers are nonlinear functions known as substitution boxes (S-boxes). S-boxes with weak cryptographic properties are vulnerable to attacks by various cryptanalysis techniques. Cellular Automata has been used to design S-boxes with good cryptographic properties such as nonlinearity, differential uniformity, balancedness, etc. Cellular Automata based S-boxes also have low implementation cost due to their highly parallel nature. In this work, we explore an approach of using Cellular Automata based semi-bent Boolean functions to generate S-boxes. Genetic algorithms have been used extensively to generate CA based S-boxes. Here we explore the use of Reinforcement Learning algorithms that uses relatively well understood and mathematically grounded framework of Markov Decision Processes as an alternative to genetic programming.},
-  journal={Chopard, B., Bandini, S., Dennunzio, A., Arabi Haddad, M. (eds) Cellular Automata. ACRI 2022. Lecture Notes in Computer Science  },
-  volume={13402},
-  year={2022},
-  month={August},
-  publisher={SpringerLink},
-  doi={10.1007/978-3-031-14926-9_2},
-  url={https://doi.org/10.1007/978-3-031-14926-9_2},
-  html={https://link.springer.com/chapter/10.1007/978-3-031-14926-9_2},
-  pdf={paper.pdf},
-  selected={true},
-  code={https://github.com/tarunaygr/RL-based-S-boxes}
-},
 
-@misc{Mixon-Baca_Knockel_Xue_Ayyagari_Kapur_Ensafi_Crandall_2024, 
+
+@article{Mixon-Baca_Knockel_Xue_Ayyagari_Kapur_Ensafi_Crandall_2024, 
 title={Attacking Connection Tracking Frameworks as used by Virtual Private Networks},
 abbr={Network Alchemy},
-volume={2024}, url={http://dx.doi.org/10.56553/popets-2024-0070},
+volume={2024}, 
+url={http://dx.doi.org/10.56553/popets-2024-0070},
 DOI={10.56553/popets-2024-0070},
 html={10.56553/popets-2024-0070},
 abstract={VPNs (Virtual Private Networks) have become an essential privacy-enhancing technology, particularly for at-risk users like dissidents, journalists, NGOs, and others vulnerable to targeted threats. While previous research investigating VPN security has focused on cryptographic strength or traffic leakages, there remains a gap in understanding how lower-level primitives fundamental to VPN operations, like connection tracking, might undermine the security and privacy that VPNs are intended to provide. In this paper, we examine the connection tracking frameworks used in common operating systems, identifying a novel exploit primitive that we refer to as the port shadow. We use the port shadow to build four attacks against VPNs that allow an attacker to intercept and redirect encrypted traffic, de-anonymize a VPN peer, or even portscan a VPN peer behind the VPN server. We build a formal model of modern connection tracking frameworks and identify that the root cause of the port shadow lies in five shared, limited resources. Through bounded model checking, we propose and verify six mitigations in terms of enforcing process isolation. We hope our work leads to more attention on the security aspects of lower-level systems and the implications of integrating them into security-critical applications.},
@@ -40,3 +25,20 @@ month={jul},
 pages={109–126} 
 }
 
+@misc{PhysRev.47.777,
+  abbr={Sbox with CA & RL},
+  title={Exploring Lightweight S-boxes Using Cellular Automata and Reinforcement},
+  author={Ayyagari, T. and Saji, A. and John, A. and Jose, J.},
+  abstract={VPNs (Virtual Private Networks) have become an essential privacy-enhancing technology, particularly for at-risk users like dissidents, journalists, NGOs, and others vulnerable to targeted threats. While previous research investigating VPN security has focused on cryptographic strength or traffic leakages, there remains a gap in understanding how lower-level primitives fundamental to VPN operations, like connection tracking, might undermine the security and privacy that VPNs are intended to provide. In this paper, we examine the connection tracking frameworks used in common operating systems, identifying a novel exploit primitive that we refer to as the port shadow. We use the port shadow to build four attacks against VPNs that allow an attacker to intercept and redirect encrypted traffic, de-anonymize a VPN peer, or even portscan a VPN peer behind the VPN server. We build a formal model of modern connection tracking frameworks and identify that the root cause of the port shadow lies in five shared, limited resources. Through bounded model checking, we propose and verify six mitigations in terms of enforcing process isolation. We hope our work leads to more attention on the security aspects of lower-level systems and the implications of integrating them into security-critical applications.},
+  journal={Chopard, B., Bandini, S., Dennunzio, A., Arabi Haddad, M. (eds) Cellular Automata. ACRI 2022. Lecture Notes in Computer Science  },
+  volume={13402},
+  year={2022},
+  month={August},
+  publisher={SpringerLink},
+  doi={10.1007/978-3-031-14926-9_2},
+  url={https://doi.org/10.1007/978-3-031-14926-9_2},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-14926-9_2},
+  pdf={paper.pdf},
+  selected={true},
+  code={https://github.com/tarunaygr/RL-based-S-boxes}
+},
