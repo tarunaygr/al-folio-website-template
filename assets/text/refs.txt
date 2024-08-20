@@ -1,0 +1,7 @@
+https://usa.kaspersky.com/resource-center/threats/ransomware-wannacry
+https://www.cloudflare.com/en-gb/learning/security/ransomware/wannacry-ransomware/
+
+
+https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/
+
+https://cloud.google.com/blog/topics/threat-intelligence/wannacry-malware-profile/
