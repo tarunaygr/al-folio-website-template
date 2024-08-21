@@ -229,7 +229,7 @@ HKU\S-1-5-21-2468057532-1901412999-489411066-1000\SOFTWARE\Microsoft\Windows\Cur
 HKU\S-1-5-21-2468057532-1901412999-489411066-1000\SOFTWARE\WanaCrypt0r\wd: "C:\Users\taygr\Desktop"
 ```
 
-The first entry is a value under `SOFTWARE\Microsoft\Windows\CurrentVersion\Run\`. Values under the `Run` key are executed automatically at startup. The program being run is one of the executables we found in the resources of the malware sample. The second entry is clearly made by the wannnacry malware. The key value is just the desktop directory (We will see where this comes from later).
+The first entry is a value under `SOFTWARE\Microsoft\Windows\CurrentVersion\Run\`. Values under the `Run` key are executed automatically at startup. The program being run is one of the executables we found in the resources of the malware sample. This is done to ensure persistence on the victim machine. The second entry is clearly made by the wannnacry malware. The key value is just the desktop directory (We will see where this comes from later).
 
 There are 265 modified regsitry values. Out of all of them, only a few are relevant. These are the reason our desktop wallpaper changes.
 ```
