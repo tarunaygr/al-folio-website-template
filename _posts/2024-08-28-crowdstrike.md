@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Billion Dollar Bug
-date: 2024-08-25 
+date: 2024-08-28 
 description: The crowdstrike incident that took down the internet
 tags: crowdstrike2024
 categories: tech-news
