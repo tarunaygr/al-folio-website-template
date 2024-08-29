@@ -222,7 +222,7 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code','writeup']
-display_categories: ['writeup','malware analysis'] # this tags will be dispalyed on the front page of your blog
+display_categories: ['writeup','malware analysis','tech-news'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
