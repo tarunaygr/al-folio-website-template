@@ -6,7 +6,14 @@ description: The crowdstrike incident that took down the internet
 tags: crowdstrike2024
 categories: tech-news
 ---
+<!-- TOC -->
 
+1. [What is Crowdstrike Falcon?](#what-is-crowdstrike-falcon)
+2. [The Incident](#the-incident)
+3. [The Bug](#the-bug)
+4. [The Effects and Conclusion](#the-effects-and-conclusion)
+
+<!-- /TOC -->
 How was your day on Friday, 19th July 2024? Most of the world had a pretty terrible day, especially if you were travelling. If you were at work, you probably got an early weekend. This all stemmed from a bug in a Endpoint Detection and Response (EDR) software called Crowdstrike Falcon. Let's talk about what really happened.
 
 <div class="row mt-3">
@@ -52,4 +59,4 @@ In their RCA, Crowdstrike highlights the series of internal testing failures tha
 
 My concluding thoughts on this - Trusting anyone or any company with kernel level access to your Windows will always carry an inherent risk. Of course, a company as reputed as Crowdstrike can be trusted (mostly). However, this could easily have been a spyware that you downloaded without knowing. We were "lucky" in a sense that it was only a bug that caused a system crash. If it was a vulnerability that could have allowed for Remote Code Execution (RCE) or any other major vulnerability and if discovered by a malicious party, it could leave a huge number of machines on the internet completely helpless. Always be careful and only install software from verified sources (even those are not always safe).
 
-That concludes this blog post of the Crowdstrike incident. I hope you found it informative and stay tuned for more such interesting topics (they will be uploaded faster, I promise)!! Thank you for reading, please feel free to share your thoughts and suggestions :)
+That concludes this blog post of the Crowdstrike incident. I hope you found it informative and stay tuned for more such interesting topics!! Thank you for reading, please feel free to share your thoughts and suggestions :)
